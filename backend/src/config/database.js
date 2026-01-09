@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/stray_pets_adoption';
+const mongoURI = process.env.MONGODB_URI || 'mongodb+srv://Dazzjin:<db_password>@cluster0.widveer.mongodb.net/';
 
 class Database {
     constructor() {
